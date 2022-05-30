@@ -1,0 +1,6 @@
+// "~" 為 node_modules
+@import "~bootstrap/scss/functions";  // 原生的
+@import "./helpers/variables";  // 自定義
+
+@import "~bootstrap/scss/bootstrap"  // 載入所有 bootstrap
+// 最後都需與 "main.js" 產生關係
